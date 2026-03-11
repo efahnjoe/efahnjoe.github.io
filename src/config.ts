@@ -19,5 +19,5 @@ export const SITE = {
   dynamicOgImage: true,
   dir: "ltr", // "rtl" | "auto"
   lang: "en-US", // html lang code. Set this empty and default will be "en"
-  timezone: "Asia/HongKong", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  timezone: "Asia/Hong_Kong", // Default global timezone (IANA format) https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 } as const;
