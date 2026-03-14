@@ -1,10 +1,10 @@
 export const SITE = {
   website: "https://efahnjoe.github.io/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://www.github.com/efahnjoe//",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
+  author: "Efahn Joe",
+  profile: "https://www.github.com/efahnjoe/",
+  desc: "A personal blog of a Python AI, Rust, and TS engineer: sharing professional expertise, original stories, essays, and reflections on life and code.",
+  title: "Efahn Joe's Blog",
+  ogImage: "og.webp",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
