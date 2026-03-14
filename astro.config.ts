@@ -2,6 +2,7 @@ import { defineConfig, envField, fontProviders } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 import remarkToc from "remark-toc";
+import rehypeExternalLinks from "rehype-external-links";
 import remarkCollapse from "remark-collapse";
 import {
   transformerNotationDiff,
@@ -33,6 +34,9 @@ export default defineConfig({
         transformerNotationDiff({ matchAlgorithm: "v3" }),
       ],
     },
+    rehypePlugins: [
+      [rehypeExternalLinks, { target: "_blank", rel: "noopener noreferrer" }],
+    ],
   },
   vite: {
     // eslint-disable-next-line
